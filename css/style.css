@@ -1,0 +1,157 @@
+body {
+    background-color: #f5f5f0;
+    font-family:'Open Sans';
+    text-align: center;
+
+    width: 100%;
+}
+div {
+    /*border: 1px solid Chocolate; */
+}
+
+* {
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box sizing: border-box;
+  -webkit-appearance: none;
+}
+#container { 
+  margin: 0 auto;
+  width: 100%;
+}
+.header {
+	background-color: #e6e6d8;
+	text-align: center;
+  padding: 30px 0;
+}
+.logo {
+	color: #55acee;
+	background-color: #e6e6d8;
+}
+.titlelist { 
+  color: orange
+}
+
+#add-items {
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	color: orange;
+    display: inline-block;
+    font-size: 13pt;
+    height: 30px;
+    line-height: 24pt;
+    margin: 10px auto;
+    padding: 0 15px;
+    text-align: center;
+    width: 500px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    indigo;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    indigo;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    indigo;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    indigo;
+}
+input[type=text]:focus {
+    border: none;
+    outline: none;
+}
+.reset {
+  background-color: #909090;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  height: 30px;
+  line-height: 24px;
+  margin: 15px auto;
+  text-align: center;
+  width: 150px;
+}
+button:hover {
+  background-color: #575757;
+}
+p {
+  background-color: #CCCCb2;
+  display: table;
+  border-radius: 15px;
+  color: indigo;
+  font-size: 18px;
+  height: 10px;
+  line-height: 30px;
+  margin: 15px auto;
+  padding: 0 15px;
+}
+h1 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+hr {
+  background-color: black;
+  height: 6px;
+  border-radius: 7px;
+  border: none;
+  margin: 30px auto 5px auto;
+  width: 300px;
+}
+.dotted {
+  background-color: transparent;
+  color: #575757;
+  border: 2px solid #575757;
+  border-style: dotted;
+}
+
+.full-width {
+  width: 500px;
+}
+.delete {
+  cursor: pointer;
+  margin-top: 5px;
+  float: left;
+  height: 22px;
+  width: 22px;
+  background: url("../img/x-mark.png")
+}
+.alt-delete {
+  background: url("../img/alt-x-mark.png")
+}
+.cross-off {
+  cursor: pointer;
+  margin-top: 5px;
+  float: right;
+  height: 22px;
+  width: 22px;
+  background: url("../img/check-mark.png")
+}
+
+.alt-cross-off {
+  background: url("../img/alt-check-mark.png")
+}
+
+.strikethrough {
+  background-color: darkred;
+  text-decoration: line-through !important;
+}
+
+
+.footer {
+  height: 100px;
+  background-color: #e6e6d8;
+  margin-top: 30px;
+}
+
