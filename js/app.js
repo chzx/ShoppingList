@@ -75,4 +75,4 @@ $(document).on("click" , ".cross-off", function() {
 });
 
 //sortable list items??
-  $('#list-area').sortable({ axis: "y" });
+// $('#list-area').sortable({ axis: "y" });
