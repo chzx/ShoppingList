@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var submissions = 0;
+  //var submissions = 0;
   var checkMark = '<span class="cross-off"></span>'
   var xMark = '<span class="delete"></span>'
 
@@ -48,13 +48,13 @@ $(document).ready(function(){
 });
   
 
-/*clears all items on list */
+/*reset button */
 $(document).on("click", ".reset", function() {
   $('#list-area').empty();
-  submissions = 0;
+  //submissions = 0;
 });
 
-//reset button
+//X- cross-off delete button
 $(document).on("click", ".delete", function() {
   $(this).closest('p').fadeOut(300);
 });
@@ -75,4 +75,4 @@ $(document).on("click" , ".cross-off", function() {
 });
 
 //sortable list items??
-  $('#list-area').sortable({ axis: "y" });
+ // $('#list-area').sortable({ axis: "y" });
