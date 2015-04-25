@@ -136,7 +136,7 @@ hr {
   float: right;
   height: 22px;
   width: 22px;
-  background: url("../img/check-mark.png")
+  background: url("../img/check-mark.png"); 
 }
 
 .alt-cross-off {
